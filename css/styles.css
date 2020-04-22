@@ -73,6 +73,10 @@ img {
     display: block!important;
 }
 
+.contenido-centrado {
+    max-width: 80rem;
+}
+
 /* botones */
 .boton {
     color: #ffffff;
@@ -229,6 +233,8 @@ img {
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    flex: 1;
+    max-width: 50rem;
 }
 
 .iconos-caracteristicas li {
@@ -379,4 +385,9 @@ img {
     padding: 1rem 0 3rem 0;
 }
 
-/* Pagina de anuncios.html  */
+/* Pagina anuncio.html */
+.resumen-propiedad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
