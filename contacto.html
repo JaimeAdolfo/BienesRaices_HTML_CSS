@@ -42,7 +42,7 @@
             Llena el formulario de contacto
         </h2>
 
-        <form action="">
+        <form class="contacto" action="">
 
             <fieldset>
                 <legend>Información personal</legend>
@@ -80,11 +80,13 @@
 
                 <p>¿Cómo deseas ser contactado?</p>
 
-                <label for="telefono">Teléfono</label>
-                <input type="radio" name="labelCont" value="t" id="telefono">
+                <div class="forma-contacto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="radio" name="labelCont" value="t" id="telefono">
 
-                <label for="correo">E-mail</label>
-                <input type="radio" name="labelCont" value="c" id="correo">
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="labelCont" value="c" id="correo">
+                </div>
 
                 <p>Si eligió teléfono, elija la fecha y hora:</p>
                 <label for="fecha">Fecha:</label>
