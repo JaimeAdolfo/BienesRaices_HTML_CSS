@@ -391,3 +391,8 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Pagina contacto.html */
+label {
+    display: block;
+}
