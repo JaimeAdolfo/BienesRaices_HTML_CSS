@@ -24,6 +24,7 @@ body {
 /** Globales **/
 
 .contenedor {
+    width: 95%;
     /* Ancho maximo del contenedor */
     max-width: 120rem;
     /* Margen de arriba, derecha, abajo, izquierda */
@@ -88,6 +89,15 @@ img {
     display: inline-block;
     text-align: center;
     border: none;
+    display:block;
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
 }
 
 .boton:hover {
@@ -150,6 +160,7 @@ img {
     padding-top: 3rem;
     /*  */
 }
+
 
 
 /* NAVEGACION */
